@@ -1,0 +1,399 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+body 
+    {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(0, 0, 0);
+    
+    
+    }
+a 
+    {
+text-decoration: none;
+    }
+ li 
+    {
+    list-style: none;
+ }
+.panelka
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+        background-color: rgb(36, 10, 12);
+        color: #fff;
+        ;
+    }
+.nav-links a {
+        color: #fff;
+     }
+.logo 
+      {
+font-size: 32px;
+ color: red;
+    
+      }
+      .logo2 {
+font-size: 32px;
+color: yellow;
+left: -585px;
+position: relative;
+      }
+.menu {
+        display: flex;
+        gap: 1em;
+        font-size: 18px;
+      }
+.menu li:hover {
+        background-color: #fffb00;
+        border-radius: 5px;
+        transition: 0.6s ease;
+      }
+.menu li {
+        padding: 5px 14px;
+     }
+
+       
+    @media (max-width: 768px) {
+    .menu { 
+    display:none;
+    position: absolute;
+    background-color:teal;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 16px 0;
+}
+    }
+.Pure{
+    position: absolute;
+    left: -50px;
+    width: 500px;
+    top: 200px;
+    
+}
+.pure1{
+    position: absolute;
+    left: 800px;
+    top: 100;
+    font-size: 48px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: red;
+    color: yellow;
+}
+.gpk{
+    position: absolute;
+    left: -50px;
+    top: 1200;
+    font-size: 48px;
+    width: 500px;
+}
+.gpk1{
+    position: absolute;
+    left: 800px;
+    top: 1000;
+    font-size: 48px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: yellow;
+    color: red;
+}
+.Nightfall{
+    position: absolute;
+    left: -50px;
+    top: 2200;
+    font-size: 48px;
+    width: 500px;
+}
+.Nightfall1{
+    position: absolute;
+    left: 800px;
+    top: 2000;
+    font-size: 48px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: red;
+    color: yellow;
+}
+.Save{
+    position: absolute;
+    left: -50px;
+    top: 3200;
+    font-size: 48px;
+    width: 500px;
+}
+.Save1{
+    position: absolute;
+    left: 800px;
+    top: 3000;
+    font-size: 48px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: yellow;
+    color: red;
+}
+.Torontotokyo1{
+    position: absolute;
+    left: -50px;
+    top: 4200;
+    font-size: 48px;
+    width: 500px;
+}
+.Torontotokyo{
+    position: absolute;
+    left: 800px;
+    top: 4000;
+    font-size: 48px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: red;
+    color: yellow;
+}
+.text1 {
+    position: absolute;
+    left: 400px;
+    top: 300;
+    font-size: 34px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.ramka1 {
+    position: absolute;
+    left: 390px;
+    top: 300;
+     background-color: gray;
+    width: 5px;
+    height: 180px;
+    border-radius: 5px;
+}
+.ramka2 {
+    position: absolute;
+    left: 1890px;
+    top: 300;
+     background-color: gray;
+    width: 5px;
+    height: 180px;
+    border-radius: 5px;
+}
+.ramka3 {
+    position: absolute;
+    left: 390px;
+    top: 475;
+     background-color: gray;
+    width: 1505px;
+    height: 5px;
+    border-radius: 5px;
+}
+.ramka4 {
+    position: absolute;
+    left: 390px;
+    top: 300;
+     background-color: gray;
+    width: 1505px;
+    height: 5px;
+    border-radius: 5px;
+}
+.hero1 {
+    position: absolute;
+    left: 690px;
+    top: 475px;
+}
+.text2 {
+    position: absolute;
+    left: 400px;
+    top: 1300;
+    font-size: 34px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.ramka5 {
+    position: absolute;
+    left: 390px;
+    top: 1300;
+     background-color: gray;
+    width: 5px;
+    height: 180px;
+    border-radius: 5px;
+}
+.ramka6 {
+    position: absolute;
+    left: 1890px;
+    top: 1300;
+     background-color: gray;
+    width: 5px;
+    height: 180px;
+    border-radius: 5px;
+}
+.ramka7 {
+    position: absolute;
+    left: 390px;
+    top: 1475;
+     background-color: gray;
+    width: 1505px;
+    height: 5px;
+    border-radius: 5px;
+}
+.ramka8 {
+    position: absolute;
+    left: 390px;
+    top: 1300;
+     background-color: gray;
+    width: 1505px;
+    height: 5px;
+    border-radius: 5px;
+}
+.hero2 {
+    position: absolute;
+    left: 690px;
+    top: 1475px;
+    width: 500px;
+}
+.text3 {
+    position: absolute;
+    left: 450px;
+    top: 2300;
+    font-size: 34px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.ramka9 {
+    position: absolute;
+    left: 390px;
+    top: 2300;
+     background-color: gray;
+    width: 5px;
+    height: 250px;
+    border-radius: 5px;
+}
+.ramka10 {
+    position: absolute;
+    left: 1890px;
+    top: 2300;
+     background-color: gray;
+    width: 5px;
+    height: 250px;
+    border-radius: 5px;
+}
+.ramka11 {
+    position: absolute;
+    left: 390px;
+    top: 2545;
+     background-color: gray;
+    width: 1505px;
+    height: 5px;
+    border-radius: 5px;
+}
+.ramka12 {
+    position: absolute;
+    left: 390px;
+    top: 2300;
+     background-color: gray;
+    width: 1505px;
+    height: 5px;
+    border-radius: 5px;
+}
+.hero3 {
+    position: absolute;
+    left: 690px;
+    top: 2550px;
+    width: 450px;
+
+}
+.text4 {
+    position: absolute;
+    left: 400px;
+    top: 3300;
+    font-size: 34px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.ramka13 {
+    position: absolute;
+    left: 390px;
+    top: 3300;
+     background-color: gray;
+    width: 5px;
+    height: 180px;
+    border-radius: 5px;
+}
+.ramka14 {
+    position: absolute;
+    left: 1890px;
+    top: 3300;
+     background-color: gray;
+    width: 5px;
+    height: 180px;
+    border-radius: 5px;
+}
+.ramka15 {
+    position: absolute;
+    left: 390px;
+    top: 3475;
+     background-color: gray;
+    width: 1505px;
+    height: 5px;
+    border-radius: 5px;
+}
+.ramka16 {
+    position: absolute;
+    left: 390px;
+    top: 3300;
+     background-color: gray;
+    width: 1505px;
+    height: 5px;
+    border-radius: 5px;
+}
+.hero4 {
+    position: absolute;
+    left: 690px;
+    top: 3475px;
+    width: 500px;
+}
+.text5 {
+    position: absolute;
+    left: 400px;
+    top: 4300;
+    font-size: 34px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.ramka17 {
+    position: absolute;
+    left: 390px;
+    top: 4300;
+     background-color: gray;
+    width: 5px;
+    height: 180px;
+    border-radius: 5px;
+}
+.ramka18 {
+    position: absolute;
+    left: 1890px;
+    top: 4300;
+     background-color: gray;
+    width: 5px;
+    height: 180px;
+    border-radius: 5px;
+}
+.ramka19 {
+    position: absolute;
+    left: 390px;
+    top: 4475;
+     background-color: gray;
+    width: 1505px;
+    height: 5px;
+    border-radius: 5px;
+}
+.ramka20 {
+    position: absolute;
+    left: 390px;
+    top: 4300;
+     background-color: gray;
+    width: 1505px;
+    height: 5px;
+    border-radius: 5px;
+}
+.hero5 {
+    position: absolute;
+    left: 690px;
+    top: 4475px;
+    width: 500px;
+}
+
